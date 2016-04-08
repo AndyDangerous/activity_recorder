@@ -16,4 +16,5 @@ config :activity_recorder, ActivityRecorder.Repo,
   password: "postgres",
   database: "activity_recorder_test",
   hostname: "localhost",
+  extensions: [{Geo.PostGIS.Extension, library: Geo}],
   pool: Ecto.Adapters.SQL.Sandbox

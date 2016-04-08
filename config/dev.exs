@@ -40,4 +40,5 @@ config :activity_recorder, ActivityRecorder.Repo,
   password: "postgres",
   database: "activity_recorder_dev",
   hostname: "localhost",
+  extensions: [{Geo.PostGIS.Extension, library: Geo}],
   pool_size: 10
