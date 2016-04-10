@@ -2,6 +2,14 @@
 
 This is really just a tool to learn Phoenix, but here's [a gist with some ideas about features](https://gist.github.com/AndyDangerous/03b90c1a366e4a62887424cb93aa61bb)
 
+TODOs:
+
+[x] CRUD app without geo-data
+[ ] add gpx data to postgis
+[ ]
+[ ] 
+[ ] 
+[ ] 
 
 To start your Phoenix app:
 

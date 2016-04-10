@@ -1,0 +1,18 @@
+<h2>Show activity</h2>
+
+<ul>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @activity.title %>
+  </li>
+
+  <li>
+    <strong>Log entry:</strong>
+    <%= @activity.log_entry %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: activity_path(@conn, :edit, @activity) %>
+<%= link "Back", to: activity_path(@conn, :index) %>

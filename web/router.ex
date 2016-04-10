@@ -16,6 +16,7 @@ defmodule ActivityRecorder.Router do
   scope "/", ActivityRecorder do
     pipe_through :browser # Use the default browser stack
 
+    resources "/activities", ActivityController
     get "/", PageController, :index
   end
 
